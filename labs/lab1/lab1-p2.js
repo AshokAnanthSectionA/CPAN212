@@ -16,7 +16,7 @@ const app = http.createServer((req, res) => {
   } else if (req.url === "/login") {
   } else if (req.url === "/fetch_data") {
   } else {
-    res.end(" Error 404 - Page not found");
+    res.end(" Error 404 - Page not founds");
   }
 });
 
